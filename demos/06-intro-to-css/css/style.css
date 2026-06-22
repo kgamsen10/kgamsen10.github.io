@@ -1,0 +1,27 @@
+#p1 {
+    color: olive;
+
+}
+#p2 {
+    color: rgb(111, 199, 199);
+    background-color: #111;
+}
+span {
+    color: black;
+}
+#sp1 {
+    background-color: lawngreen;
+}
+#sp2{
+    color: #e1a177;
+    font-size: 24px;
+}
+#sp3 {
+    font-weight: 800;
+    color: white;
+    background-color: black;
+}
+#sp4 {
+    font-style: italic;
+    letter-spacing: 30px;
+}
