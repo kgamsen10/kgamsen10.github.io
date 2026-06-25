@@ -1,0 +1,104 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+#s1 {
+    font-weight: bold;
+}
+#s2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.post-it {
+    background-color: lightgreen;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    height: 450px;
+}
+.post-it2 {
+    background-color: lightblue;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+.post-it3 {
+    background-color: lightpink;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+#img1 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+#img2 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+#img3 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+#img4 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+.post-it4 {
+    background-color: lightblue;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+.post-it5 {
+    background-color: lightgreen;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+#img5 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+#img6 {
+    object-fit: 100%;
+    width: 250px;
+    align-items: center;
+}
+.post-it6 {
+    background-color: lightpink;
+    padding: 28px;
+    margin: 30px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+.head1 {
+    text-align: center;
+}
+.head2 {
+    text-align: center;
+}
+#head2 {
+    text-align: center;
+}
