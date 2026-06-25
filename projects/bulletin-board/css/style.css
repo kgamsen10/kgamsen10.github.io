@@ -16,32 +16,37 @@
 }
 .post-it {
     background-color: lightgreen;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
-    text-align: left;
+    text-align: center;
     height: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .post-it2 {
     background-color: lightblue;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
     height: 450px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .post-it3 {
     background-color: lightpink;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
     height: 450px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #img1 {
     object-fit: 100%;
-    width: 250px;
+    width: 220px;
     align-items: center;
 }
 #img2 {
@@ -61,19 +66,23 @@
 }
 .post-it4 {
     background-color: lightblue;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
     height: 450px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .post-it5 {
     background-color: lightgreen;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
     height: 450px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #img5 {
     object-fit: 100%;
@@ -87,18 +96,17 @@
 }
 .post-it6 {
     background-color: lightpink;
-    padding: 28px;
+    padding: 24px;
     margin: 30px;
     display: inline-block;
     width: 350px;
     height: 450px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .head1 {
     text-align: center;
 }
 .head2 {
-    text-align: center;
-}
-#head2 {
     text-align: center;
 }
