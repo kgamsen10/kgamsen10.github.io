@@ -1,0 +1,26 @@
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+h4.chapter {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+h4.edit {
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+}
+li.edit {
+    color: orange;
+    font-style: italic;
+}
+div.edit {
+    border-bottom: solid;
+    font-size: large;
+}
