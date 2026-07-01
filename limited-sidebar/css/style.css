@@ -7,20 +7,30 @@
 }
 h4.chapter {
     color: white;
-    font-size: x-large;
+    font-size: 24px;
     font-weight: bold;
 }
 h4.edit {
     color: red;
     font-weight: bold;
-    font-size: x-large;
-    font-style: italic;
+    font-size: 24px;
+    font-style: italic
 }
 li.edit {
     color: orange;
     font-style: italic;
 }
-div.edit {
+div.chapter {
     border-bottom: solid;
     font-size: large;
+}
+ul.edit {
+    color: red;
+}
+li.chapter {
+    color: red;
+}
+#sidebar + div {
+    padding: 12px 36px;
+    margin: 12px 14px ;
 }
