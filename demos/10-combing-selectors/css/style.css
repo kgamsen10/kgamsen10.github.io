@@ -22,3 +22,9 @@ p.warning a {
 ul {
     color: green;
 }
+ul p a {
+    color: purple;
+}
+ul div a {
+    color: lightblue
+}
