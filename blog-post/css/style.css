@@ -11,6 +11,7 @@ img {
     width: 300px;
     margin: 20px 60px auto;
     border-style: dashed;
+    align-items: center;
 }
 .s2 {
     width: 325px;
