@@ -1,7 +1,104 @@
-* {
-    box-sizing: border-box;
-}
+@import url(@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Charmonman:wght@400;700&family=Karma:wght@300;400;500;600;700&family=Science+Gothic:wght@100..900&display=swap');
+    box-sizing: border-box;);
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+.sc2  {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+.headphones {
+    width: 350px;
+    border-color: black;;
+}
+.sc {
+    width: 85%;
+    margin: 0px auto;
+    background-color: teal;
+}
+.sc2 {
+    text-align: center;
+}
+
+.lc {
+    padding: 24px;
+    background-color: lightblue
+}
+.dc {
+    padding: 24px;
+    background-color: lightblue
+    color: white;
+}
+.cr1 {
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 85%;
+    margin: 0px auto;
+    color: white;
+    border-style:solid;
+    border-color: black;
+}
+.cr3 {
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 85%;
+    margin: 0px auto;
+}
+.chr {
+    font-family: "Charmonman", regular;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left
+}
+.p1 {
+    width: 85%;
+    margin: 0px auto;
+}
+img {
+    margin: 0px auto;
+    display: block;
+    width: 85%
+}
+.chr-b{
+  font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+    color: white;
+}
+div {
+    padding: 24px 24px;
+}
+.p2 {
+    text-align: center;
+    border-style: solid;
+    padding: 5px;
+    margin: 30px 330px;
+    background-color: black;
+}
+.p3 {
+    text-align: center;
+    border-style: solid;
+    padding: 5px;
+    margin: 30px 320px;
+    background-color: black;
+}
+.p4 {
+    text-align: center;
+    border-style: solid;
+    padding: 5px;
+    margin: 30px 350px;
+    background-color: black;
 }
