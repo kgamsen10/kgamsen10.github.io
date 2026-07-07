@@ -17,7 +17,7 @@ img {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.spilt-layout{
+.spilt-layout {
     display: flex;
     gap: 25px;
     align-items: center;
@@ -28,7 +28,7 @@ img {
     flex: 1;
 }
 #main-section {
-padding: 24px;
+    padding: 24px;
 }
 .b1 {
     font-weight: bold;
@@ -46,9 +46,6 @@ padding: 24px;
     background-color: black;
     padding: 6px 6px;
     max-width: 55%;
-}
-.p2 {
-
 }
 span {
     margin: 4px 24px;
