@@ -5,3 +5,62 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.single-column {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.spilt-layout{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 40px;
+}
+.image-container,
+.content {
+    flex: 1;
+}
+#main-section {
+
+}
+.b1 {
+    font-weight: bold;
+}
+.p1 {
+    border: black;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    width: 55%;
+    margin: 0px auto;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    padding: 6px 6px;
+    max-width: 55%;
+
+}
+.p2 {
+
+}
+span {
+    margin: 4px 24px;
+}
+.jalepeno {
+    width: 50%;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.h1 {
+    text-align: center;
+}
