@@ -44,9 +44,11 @@ section {
     font-size: 24px;
 }
 .jersey {
-    width: 145px;
+    width: 100px;
     max-width: 300px;
     border-radius: 20px;
+    margin: 12px 6px 6px;
+    padding: 0px 2px 4px;
 } 
 .list1  {
     list-style-type: none;
@@ -54,7 +56,7 @@ section {
     margin: 12px 24px 12px;
 }
 .main-jersey {
-    width: 450px;
+    width: 500px;
     max-width: 1024px;
 }
 .single-column {
@@ -68,9 +70,12 @@ section {
     align-items: center;
     margin-top: 40px;
 }
-.image-container,
+.image-container {
+    order: 1;
+}
 .content {
     flex: 1;
+    order: 2;
 }
 .main-jersey {
     margin: 50px;
@@ -86,7 +91,7 @@ section {
     font-weight: bold;
 }
 .s3 {
-    font-size: small;
+;
 }
 .west {
     width: 25px;
