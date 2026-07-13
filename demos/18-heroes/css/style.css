@@ -41,5 +41,27 @@ body {
     width: max-content;
     margin: 0px;
     padding-right: 5%;
-
+}
+#hero-3 {
+    height: 100vh;
+    background-image: url(../images/placid-waters.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#hero-3 .content {
+    background-color: #fff5;
+    padding: 24px;
+    width: max-content;
+    backdrop-filter: blur(5%);
+}
+.content .btn2 {
+    display: inline-block;
+    background-color: #133131;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
 }
