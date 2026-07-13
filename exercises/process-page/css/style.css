@@ -76,3 +76,8 @@ section {
   font-variation-settings:
     "wdth" 100;
 }
+.single-column-c {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0px auto;
+}
