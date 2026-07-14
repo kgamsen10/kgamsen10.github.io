@@ -57,6 +57,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 800px;
 }
 #hero-1 .content {
     width: max-content;
