@@ -2,6 +2,8 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(213, 156, 156);
 h1 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -67,8 +69,8 @@ h1 {
     min-width: 200px;
 }
 .card img {
-    height: 150px;
-    width: 290px;
+    height: 130px;
+    width: 285px;
 }
 .card h2 {
     margin: 24px 0px 12px;
