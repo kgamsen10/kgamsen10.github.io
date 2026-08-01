@@ -14,18 +14,25 @@ header {
     background-color: #0e6ba8;
     position: sticky;
     top: 0px;
+    z-index: 1000;
+    background: rgba(14,107,168,.65);
+    backdrop-filter: blur(12px);
 }
 nav a {
     color: #DBE9EE;
     text-decoration: none;
+    margin: 0px 16px;
 }
 nav .btn {
+    display: flex;
+    align-items: center;
     background-color: white;
-    color: #000000;
+    color: #010264;
     font-weight: bold;
     padding: 12px 24px;
     border-radius: 24px;
     margin-left: auto;
+    margin-right: 24px;
 }
 nav {
     display: flex;
@@ -33,10 +40,6 @@ nav {
     justify-content: space-between;
     gap: 24px;
     padding: 16px 0px;
-    margin: 0px 12px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     width: 100%;
     background: #0e6ba8;
 }
@@ -49,6 +52,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 24px 36px;
+    background: #0e6ba8;
 }
 #hero-1 .content {
     width: max-content;
@@ -121,20 +125,44 @@ nav {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .p1 {
-    color: #00072d;
+    color: rgb(124, 168, 243);
     text-decoration: none;
     padding: 12px 24px;
     text-shadow: ;
 }
+.p2 {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+.p3 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.p4 {
+    text-align: center;
+    padding-bottom: 14px;
+}
 #gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-#gallery img {
+
+.gallery-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-card img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: contain;
+    display: block;
+}
+
+.gallery-card p {
+    margin: 8px 0;
 }
 .btn {
     background-color: #C0D6DF;
@@ -143,7 +171,8 @@ nav {
     padding: 12px 24px;
     border-radius: 24px;
     margin-left: auto;
-    margin-top: 22px;
+    display: flex;
+    gap: 1rem;
 }
 .btn2 {
     background-color: #C0D6DF;
@@ -153,6 +182,9 @@ nav {
     border-radius: 24px;
     margin-left: auto;
     margin-top: 22px;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 .card-container {
     display: flex;
