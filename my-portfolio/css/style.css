@@ -34,9 +34,14 @@ nav {
     gap: 24px;
     padding: 16px 0px;
     margin: 0px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background: #0e6ba8;
 }
+
 #hero-1 {
-    background-image: url("../images/urban-hi-res-3q76.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -44,7 +49,6 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 24px 36px;
-    background-image: url()
 }
 #hero-1 .content {
     width: max-content;
@@ -65,8 +69,9 @@ nav {
     text-decoration: none;
     padding: 12px 24px;
     margin: 12px 24px;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-bottom: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 #hero-1 .content .btn2 {
     display: inline-block;
@@ -75,6 +80,7 @@ nav {
     text-decoration: none;
     padding: 12px 24px;
     margin: 12px 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 #hero-1 {
     background:
@@ -115,9 +121,10 @@ nav {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .p1 {
-    color: #C0D6DF;
+    color: #00072d;
     text-decoration: none;
     padding: 12px 24px;
+    text-shadow: ;
 }
 #gallery {
     display: grid;
