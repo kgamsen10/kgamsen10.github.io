@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0px;
     z-index: 1000;
-    background: rgba(14,107,168,.65);
+    background: rgba(14,107, 168, .65);
     backdrop-filter: blur(12px);
 }
 nav a {
@@ -56,11 +56,11 @@ nav {
 }
 #hero-1 .content {
     width: max-content;
-    background-color:#0e6ba855;
+    background-color: #0e6ba855;
     backdrop-filter: blur(5px);
     position: relative;
     z-index: 1;
-    background: rgba(0,28,85,.55);
+    background: rgba(0, 28,85, .55);
     backdrop-filter: blur(12px);
     padding: 3rem;
     border-radius: 20px;
@@ -134,14 +134,17 @@ nav {
     text-align: center;
     padding-top: 24px;
     padding-bottom: 8px;
+    color: white;
 }
 .p3 {
     text-align: center;
     padding-bottom: 8px;
+    color: white;
 }
 .p4 {
     text-align: center;
     padding-bottom: 14px;
+    color: white;
 }
 #gallery {
     display: grid;
@@ -173,6 +176,7 @@ nav {
     margin-left: auto;
     display: flex;
     gap: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .btn2 {
     background-color: #C0D6DF;
@@ -230,6 +234,6 @@ body {
     background-color: #0a2472;
     background: linear-gradient();
 }
-.description{
+.description {
     margin-bottom: 24px; 
 }
