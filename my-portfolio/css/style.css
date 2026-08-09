@@ -125,7 +125,7 @@ nav {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .p1 {
-    color: rgb(124, 168, 243);
+    color: rgb(205, 222, 250);
     text-decoration: none;
     padding: 12px 24px;
     text-shadow: ;
@@ -135,16 +135,20 @@ nav {
     padding-top: 24px;
     padding-bottom: 8px;
     color: white;
+    font-size: 34px;
 }
 .p3 {
     text-align: center;
     padding-bottom: 8px;
     color: white;
+    font-size: 24px;
+    font-style: italic;
 }
 .p4 {
     text-align: center;
     padding-bottom: 14px;
     color: white;
+    font-size: 16px;
 }
 #gallery {
     display: grid;
@@ -173,9 +177,9 @@ nav {
     font-weight: bold;
     padding: 12px 24px;
     border-radius: 24px;
-    margin-left: auto;
-    display: flex;
-    gap: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .btn2 {
@@ -188,7 +192,6 @@ nav {
     margin-top: 22px;
     display: flex;
     gap: 1rem;
-    margin-top: 2rem;
 }
 .card-container {
     display: flex;
@@ -235,5 +238,8 @@ body {
     background: linear-gradient();
 }
 .description {
-    margin-bottom: 24px; 
+    padding-bottom: 40px;
+}
+.video {
+    max-width: 300px;
 }
