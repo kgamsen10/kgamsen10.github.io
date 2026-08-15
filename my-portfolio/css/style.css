@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Sekuya&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -17,6 +18,10 @@ header {
     z-index: 1000;
     background: rgba(14,107, 168, .65);
     backdrop-filter: blur(12px);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 nav a {
     color: #DBE9EE;
@@ -72,8 +77,8 @@ nav {
     color: #00072d;
     text-decoration: none;
     padding: 12px 24px;
-    margin: 12px 24px;
-    margin-left: 170px;
+    margin: 20px 24px;
+    margin-left: 270px;
     margin-bottom: 24px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -123,12 +128,19 @@ nav {
     text-align: center;
     padding: 14px 14px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 .p1 {
-    color: rgb(205, 222, 250);
-    text-decoration: none;
-    padding: 12px 24px;
-    text-shadow: ;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .p2 {
     text-align: center;
@@ -136,6 +148,10 @@ nav {
     padding-bottom: 8px;
     color: white;
     font-size: 34px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .p3 {
     text-align: center;
@@ -149,6 +165,24 @@ nav {
     padding-bottom: 14px;
     color: white;
     font-size: 16px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.p5 {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 34px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.p6 {
+    color: white;
 }
 #gallery {
     display: grid;
@@ -181,6 +215,10 @@ nav {
     display: inline-block;
     width: fit-content;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .btn2 {
     background-color: #C0D6DF;
@@ -192,6 +230,27 @@ nav {
     margin-top: 22px;
     display: flex;
     gap: 1rem;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.btn3 {
+    background-color: #C0D6DF;
+    color: black;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-left: 480px;
+    border-radius: 24px;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .card-container {
     display: flex;
@@ -212,11 +271,18 @@ nav {
     text-align: center;
     font-size: 45px;
     color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .h4 {
     text-align: center;
     font-size: 45px;
     color: white;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 @media screen and (max-width: 800px) {
     #gallery {
@@ -243,3 +309,49 @@ body {
 .video {
     max-width: 300px;
 }
+.contact-section {
+    padding: 100px 20px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Form Layout */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Labels */
+.contact-form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Text Inputs */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Message Box */
+.contact-form textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+/* Send Button */
+.contact-form .btn {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 14px 28px;
