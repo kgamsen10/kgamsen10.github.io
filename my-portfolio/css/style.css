@@ -183,6 +183,13 @@ nav {
 }
 .p6 {
     color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.p7 {
+    color: white;
+    text-align: center;
+    font-size: 34px;
 }
 #gallery {
     display: grid;
