@@ -212,6 +212,17 @@ nav {
     font-weight: <weight>;
     font-style: normal;
 }
+.p10 {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 0px 20px 0px 20px 
+}
 .pd1 {
     padding-bottom: 20px;
 }
@@ -322,6 +333,7 @@ nav {
     padding-left: 14px;
     padding-top: 24px;
     margin: 12p 6px 0px;
+    padding: 0px 0px 20px 0px;
 }
 .card {
     border: 2.5px solid #166088;
