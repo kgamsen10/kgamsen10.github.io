@@ -7,8 +7,8 @@ body {
     font-family: sans-serif;
 }
 .single-column {
-    width: 80%;
-    max-width: 1024px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0px auto;
 }
 header {
@@ -78,7 +78,7 @@ nav {
     text-decoration: none;
     padding: 12px 24px;
     margin: 20px 24px;
-    margin-left: 270px;
+    margin-left: 160px;
     margin-bottom: 24px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -239,13 +239,12 @@ nav {
 
 .gallery-card img {
     width: 90%;
-    height: 500px;
+    height: 700px;
     object-fit: contain;
     display: block;
     border: 5px solid white;
     background-color: white;
     aspect-ratio: 4/3;
-
 }
 .gallery-card p {
     margin: 8px 0;
