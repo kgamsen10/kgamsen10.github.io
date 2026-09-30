@@ -42,7 +42,7 @@ nav .btn {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     gap: 24px;
     padding: 16px 0px;
     width: 100%;
